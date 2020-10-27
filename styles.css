@@ -1,0 +1,132 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+
+.Header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+.HeaderLeftGroup {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 22rem;
+}
+
+.HeaderTitle {
+    font-size: x-large;
+    font-weight: 900;
+    color: blue
+}
+
+.HeaderMenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 10rem;
+}
+
+.HeaderRightGroup {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 26rem;
+    justify-content: space-between;
+}
+
+.HeaderSearch input {
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #F1F1F1;
+    width: 15rem;
+}
+
+
+.HeaderSearch input:focus {
+    outline: none;
+}
+
+.ProfileImage {
+    background-color: red;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 1rem;
+}
+
+.Divider{
+    border-bottom : 1px solid lightgray;
+    padding : 10px; 
+}
+
+.MainTitle{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.Main{
+    padding : 2rem 2rem;
+    
+}
+
+.MainMovieList {
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+.MainMovieItem {
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
+    margin-right: 1.5rem;
+    
+}
+
+.MainMovieItem img {
+    width: 100%
+}
+
+.Movie {
+    position: relative;
+}
+
+
+.MovieNumber {
+    position: absolute;
+    background-color: black;
+    color: white;
+    width: 2rem;
+    height: 1.7rem;
+    text-align: center;
+    top: 0.5rem;
+    left: 0.5rem;
+}
+
+.MovieTitle {
+    font-weight: 700;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+
+.MovieInfo {
+    font-size: 0.9rem;
+}
+
+.MovieScore {
+    font-size: 0.9rem;
+    color: hotpink;
+}
+
+.MovieStatistics {
+    font-size: 0.9rem;
+    color: grey;
+}
