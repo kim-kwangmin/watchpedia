@@ -79,7 +79,9 @@ body {
 .MainMovieList {
     display: flex;
     flex-direction: row;
-    
+    overflow-y:0;
+    overflow-x:auto;
+    white-space: nowrap;
     
 }
 
@@ -87,6 +89,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 15rem;
+    min-width : 15rem;
     margin-right: 1.5rem;
     
 }
