@@ -116,6 +116,7 @@ body {
 
 .MovieTitle {
     font-weight: 700;
+    overflow:hidden;
     text-overflow:ellipsis;
     white-space: nowrap;
 }
