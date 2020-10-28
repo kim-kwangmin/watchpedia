@@ -82,14 +82,15 @@ body {
     overflow-y:0;
     overflow-x:auto;
     white-space: nowrap;
+
     
 }
 
 .MainMovieItem {
     display: flex;
     flex-direction: column;
-    width: 15rem;
-    min-width : 15rem;
+    width: 17%;
+    min-width : 17%;
     margin-right: 1.5rem;
     
 }
