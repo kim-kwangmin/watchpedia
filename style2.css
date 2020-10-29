@@ -1,0 +1,67 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.HeadImage{
+    width:50rem;
+    
+    
+}
+
+.HeadImage Img{
+    width:100%;
+}
+.Header{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding-left:2rem;
+    padding-right:5rem;
+    align-items: center;
+}
+
+.HeadLeftGroup{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width:25rem;
+}
+
+.LeftTitle{
+    font-size:2rem;
+    font-weight:500;
+    color :hotpink;
+    align-items: center;
+}
+
+.LeftMenu{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:10rem;
+    color:gray;
+}
+
+.HeadTextRight{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 28rem;
+    color: grey;
+    align-items: center;
+}
+
+.RightSearch input{
+    padding : 0.3rem 0.5rem;
+    width:15rem;
+    
+}
+
+.RightSign{
+    border:1px solid grey;
+    border-radius: 0.3rem;
+    padding: 0.3rem 0.5rem;
+}
