@@ -63,8 +63,8 @@ button:hover{
 }
 
 .LeftTitle{
-    font-size:2rem;
-    font-weight:500;
+    font-size:x-large;
+    font-weight:900;
     color :hotpink;
     align-items: center;
 }
