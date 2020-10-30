@@ -129,17 +129,32 @@ button:hover{
     padding-top:1rem;
 }
 
+.WatchMe{
+    padding-top:2.5rem;
+}
+
+.WatchMe input{
+    background-color: hotpink;
+    border:none;
+    color:white;
+    text-align: center;
+    height:30px;
+    padding:1rem 0;
+    width: 40%;
+    font-weight:bold;
+}
+
 .MainText{
     width: 100%;
     display:flex;
     flex-direction: row;
     justify-content: center;
-    margin-top:2rem;
-    background-color: lightgray;
+    margin-top:1rem;
+    background-color: #F1F1F1;
 }
 
 .MainCenterText{
-    width:50%;
+    width:40%;
     border:1px solid lightgray;
     border-radius: 0.5rem;
     padding:1rem;
@@ -196,8 +211,6 @@ button:hover{
     margin-left:3.5rem;
 }
 
-
-
 .FirstText{
     font-size:0.9rem;
 }
@@ -243,4 +256,47 @@ button:hover{
     font-size:0.9rem;
     padding-top:0.3rem;
     padding-left:0.3rem;
+}
+
+.ActorWrapper{
+    display: flex;
+    flex-direction: row;
+}
+
+.ActorInfo{
+    display: flex;
+    flex-direction: row;
+    width:50%;
+    align-items: center;
+    padding-bottom:2rem;
+   
+}
+
+.ActorInfo img{    
+    width:70px;
+    border-radius: 3rem;;
+}
+
+.ActorProfile{
+    padding-left:1rem;
+    border-bottom:1px solid lightgray;
+    width:100%;
+    height:100%;
+    padding-top:1rem;
+}
+
+.Name{
+    font-weight:400px;
+}
+
+.Role{
+    font-size:0.9rem;
+    color:gray;
+}
+
+.Comment{
+    font-size:1.5rem;
+    border: 1px solid lightgray;
+    padding: 1rem;
+    text-align: center;
 }
